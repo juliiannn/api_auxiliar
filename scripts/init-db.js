@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const mysql = require('mysql2/promise');
-const config = require('../src/config');
+const config = require('../src/config/config');
 
 const TABLES = ['pictograms', 'visual_supports', 'visual_support_steps', 'audit_logs'];
 

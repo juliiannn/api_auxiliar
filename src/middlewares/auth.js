@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
-const config = require('../config');
-const { ApiError } = require('../errors');
+const config = require('../config/config');
+const { ApiError } = require('../utils/errors');
 
 const VALID_ROLES = ['ADMIN', 'RECTOR', 'COORDINATOR', 'TEACHER', 'STUDENT'];
 

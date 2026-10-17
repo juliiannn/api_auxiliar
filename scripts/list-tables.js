@@ -4,7 +4,7 @@
  *       node scripts/list-tables.js --columnas   (además, lista las columnas de cada una)
  */
 const mysql = require('mysql2/promise');
-const config = require('../src/config');
+const config = require('../src/config/config');
 
 async function main() {
   const showColumns = process.argv.includes('--columnas');
