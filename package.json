@@ -1,11 +1,13 @@
 {
   "name": "colegio-aux-api",
   "version": "1.0.0",
-  "description": "API auxiliar (Express + MySQL): comunicados y auditoría del sistema académico",
-  "main": "src/server.js",
+  "description": "API auxiliar (Express + MySQL): apoyos visuales con pictogramas y auditoría del sistema académico",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "init-db": "node scripts/init-db.js",
+    "smoke-test": "node scripts/smoke-test.js"
   },
   "engines": { "node": ">=18" },
   "dependencies": {
